@@ -37,6 +37,9 @@ body{
   margin: 0 auto;
   padding: 0 10px;
 }
+h1, h2, h3, h4, h5, h6{
+  @extend %title-font;
+}
 
 .slick-dots{
   display: flex;

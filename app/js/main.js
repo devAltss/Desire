@@ -14,4 +14,7 @@ $(function () {
     autoplay: true
   });
 
+  var mixer = mixitup('.gallery__inner');
+
+
 })
