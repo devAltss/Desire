@@ -41,6 +41,14 @@ h1, h2, h3, h4, h5, h6{
   @extend %title-font;
 }
 
+ul{
+  padding: 0;
+}
+
+li{
+  display: block;
+}
+
 .slick-dots{
   display: flex;
   justify-content: center;
@@ -61,6 +69,25 @@ h1, h2, h3, h4, h5, h6{
     button{
       background-color: #FFEF35;
     }
+  }
+}
+
+.info-email{
+  font-weight: 600;
+  font-size: 14px;
+  color: $title;
+  margin-bottom: 22px;
+  padding-left: 30px;
+  display: inline-block;
+  position: relative;
+  &::before{
+    content: '';
+    background-image: url(../images/envelope.svg);
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 16px;
+    height: 12px;
   }
 }
 
