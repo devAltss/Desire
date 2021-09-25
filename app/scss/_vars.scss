@@ -8,8 +8,17 @@ $line-bg: #6D7278;
   font-weight: 700;
 }
 
+%title-font-540{
+  font-size: 28px;
+  line-height: 36px;
+} 
 
-
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers}); // это для fancybox
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
 
 
 
